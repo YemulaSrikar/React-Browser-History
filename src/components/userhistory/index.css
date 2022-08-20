@@ -1,0 +1,60 @@
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 08px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .time {
+    font-size: 11px;
+  }
+}
+.logo {
+  height: 20px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 15px;
+}
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 12px;
+    padding-top: 08px;
+  }
+}
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 18px;
+}
+@media screen and (max-width: 767px) {
+  .domain-url {
+    font-size: 11px;
+    padding-top: 04px;
+  }
+}
+.btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.dlt-button {
+  border-width: 0px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.delete-img {
+  height: 15px;
+  margin-top: 0px;
+}
